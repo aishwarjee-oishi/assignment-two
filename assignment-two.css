@@ -17,6 +17,10 @@ nav a{
     padding: 20px;
     font-size: larger;
 }
+nav a:hover{
+    background-color: rgb(2, 35, 37);
+    transform: scale(1.1);
+}
 
 /*--------------
  Dividing into two parts
@@ -49,6 +53,11 @@ nav a{
     margin-top: 10%;
     margin-bottom: 10%;
 }
+.last-sec{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* Modifying the h1 tag */
 h1{
     font-size: 50px;
@@ -107,6 +116,23 @@ h1{
 .photo-detail{
     margin-top: 10px;
     padding-left: 10px;
+}
+
+/*-----------------
+
+-------------------*/
+.extra-info{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 1%;
+    border-left: 8px solid;
+    border-image: linear-gradient( rgb(92, 0, 128), rgb(12, 114, 139));
+    border-image-slice: 1;
+    box-shadow: 10px 10px 20px gray;
 }
 /*------------------
     Footer Section
