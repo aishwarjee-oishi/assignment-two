@@ -109,7 +109,7 @@ h1{
     align-items: center;
     margin-top: 10px;
 }
-/* additional part */
+/* additional part, applied hover on player's images */
 .grid-photo:hover{
     transform: scale(1.2);
 }
@@ -119,7 +119,7 @@ h1{
 }
 
 /*-----------------
-
+ Some extra information about the project, an additional part
 -------------------*/
 .extra-info{
     width: 50%;
