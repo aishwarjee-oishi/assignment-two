@@ -10,7 +10,7 @@ nav{
     padding: 10px;
 }
 nav a{
-    display: flex;
+    
     text-decoration: none;
     color: whitesmoke;
     margin-left: 20px;
@@ -78,14 +78,16 @@ h1{
 
 .grid-container{
     display: grid;
+    width: 1024px;
     grid-template-columns: repeat(3, 1fr);
     gird-gap: 10px;
-    margin-left: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .grid-cell{
     border-radius: 1%;
     box-shadow: 10px 10px 40px gray;
-    width: 300px;
+    width: 350px;
     margin: 10px;
     padding: 10px;
     align-items: center;
@@ -93,8 +95,8 @@ h1{
 .grid-photo img{
     display: flex;
     align-items: center;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     align-items: center;
     margin-top: 10px;
 }
