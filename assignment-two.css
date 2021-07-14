@@ -7,6 +7,7 @@ nav{
     padding: 10px;
 }
 nav a{
+    display: flex;
     text-decoration: none;
     color: whitesmoke;
     margin-left: 20px;
@@ -97,14 +98,30 @@ footer{
     width: 25%;
     height: 20%;
 }
+/* ---------------------
+      Media Queries
+      ------------------*/
+      /* Mobile Devices*/
+
+@media only screen and (max-width: 688px) {
+    .first-sec nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .flexibility{
+        display: flex;
+        flex-direction: column;
+    }
+    .add-button{
+        display: flex;
+    }
+
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .grid-cell{
+        flex-direction: column;
+    }
 
 
-@media screen(min-width: 1024px) {
-    
-}
-@media screen(min-width: 768px) {
-    
-}
-@media screen(min-width: 375px) {
-    
-}
